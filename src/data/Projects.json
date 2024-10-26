@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Spiderman Website",
+    "description": "Developed a fan site using React, TypeScript, HTML, and CSS, focusing on engaging design and responsiveness. Created an intuitive layout to provide an immersive user experience.",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "link": "https://juanramirezwebdev.github.io/Spiderman-website/",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS0sx0enMxc1Uy2Jnlu6R_-StLbVxPqQoqcpz5HnLL3xHmBlFjc3S5xbpTHwlXvA7S9xiuMfIF0k4HJnaFykV3_o9Stkou8JOgdCJKIZg"
+  },
+  {
+    "title": "Victoria Rueda Cakes",
+    "description": "Developed a responsive, visually appealing website using TypeScript, React, HTML, and CSS. Optimized site performance and enhanced user engagement through intuitive navigation.",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "link": "https://victoriarueda-cakes.netlify.app/",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/30/2013/05/easy-lemon-layer-cake-hero-e54adca.jpg?resize=1200%2C630"
+  },
+  {
+    "title": "Previous portfolio website",
+    "description": "Built a personal portfolio using Astro, HTML, CSS, and JavaScript to showcase skills and projects. Implemented responsive design and interactive features for optimal user experience.",
+    "techStack": [
+      "JavaScript",
+      "Astro",
+      "Vanilla CSS"
+    ],
+    "link": "https://astroportfoliowebsite.netlify.app/",
+    "image": "https://getvectorlogo.com/wp-content/uploads/2023/05/portfolioplus-inc-vector-logo.png"
+  }
+]
