@@ -1,4 +1,3 @@
-import React from 'react';
 import './Home.css';
 import profilePicture from '../assets/images/profilepic.png';
 

@@ -10,20 +10,11 @@
 .about-header {
   text-align: center;
   margin-bottom: 20px;
+  
 }
 
-.profile-picture {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.profile-picture:hover {
-  transform: scale(1.1);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.about-header h2 {
+  color: #3498db; /* Updated to match the project's primary color */
 }
 
 .about-content {
@@ -35,33 +26,9 @@
   color: #3498db; /* Updated to match the project's primary color */
 }
 
-.skills-list {
-  list-style-type: none;
-  padding: 0;
-}
 
-.skills-list li {
-  background-color: #0092ca;
-  margin: 5px 0;
-  padding: 10px;
-  border-radius: 4px;
-}
 
 .about-social {
   text-align: center;
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.social-icons a {
-  color: #3498db; /* Updated to match the project's primary color */
-  transition: color 0.3s;
-}
-
-.social-icons a:hover {
-  color: #2980b9; /* Updated to match the project's hover color */
-}

@@ -2,7 +2,7 @@
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
-  background-color:#393e46;
+  background-color: #3e4a61;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -26,7 +26,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.featured-projects, .skills-overview, .contact-info, .youtube-videos {
+.featured-projects, .skills-overview, .youtube-videos {
   margin-bottom: 20px;
 }
 
@@ -60,13 +60,27 @@
 .skills-overview ul {
   list-style-type: none;
   padding: 0;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
 }
 
 .skills-overview ul li {
-  background-color: #0092ca;
+  background-color: #0092ca; /* Existing background color */
   margin: 5px 0;
   padding: 10px;
   border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.skills-overview ul li:hover {
+  background-color: #007bb5; /* Slightly darker shade for hover effect */
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 
 .contact-info {
@@ -88,13 +102,13 @@
   color: #2980b9; /* Updated to match the project's hover color */
 }
 
-/* Responsive iframe for YouTube videos */
 .video-card iframe {
   width: 100%;
   height: auto;
   aspect-ratio: 16/9;
   border: none;
 }
+
 h2, h3, p {
   text-align: center;
 }
